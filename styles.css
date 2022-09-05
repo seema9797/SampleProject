@@ -1,0 +1,169 @@
+.background-img {
+    background-image: url("./Images/home.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: bold;
+    padding-left: 30px;
+}
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+    font-weight: bold;
+}
+.navbar .btn-Cv {
+    color: #fff;
+    border-radius: 35px;
+    margin-left: 40px;
+    padding: 10px 20px 10px;
+    background-color: black;
+}
+.social-icons {
+    position: absolute;
+    z-index: 1;
+    background: white;
+    opacity: 0.75;
+
+    margin-top: 380px;
+    width: 480px;
+    margin-left: 50%;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.social-icons ul {
+    display: flex;
+}
+.social-icons ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 10px 0px;
+}
+.social-icons ul li img {
+    width: 40px;
+}
+.Web-developement {
+    color: rgb(248, 176, 42);
+    display: flex;
+}
+
+.Web-developement button {
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(248, 176, 42);
+    background-color: rgb(251, 237, 215);
+    letter-spacing: 0.1rem;
+}
+.Web-developement p {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.Info-details {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.Info-details img {
+    width: 450px;
+}
+.last-container {
+    margin-top: 200px;
+}
+.more-learn {
+    margin-top: 50px !important;
+}
+.more-learn h5 {
+    text-transform: uppercase;
+    color: rgb(248, 176, 42);
+    letter-spacing: 0.2rem;
+}
+.more-learn h1 {
+    font-weight: bolder;
+}
+.last-container img {
+    width: 300px;
+}
+.btn-learn-group {
+    color: rgb(248, 176, 42);
+    display: flex;
+}
+.btn-learn-more {
+    background: linear-gradient(135deg, rgb(252, 207, 49) 10%, rgb(245, 85, 85) 100%);
+    border: none;
+    padding: 10px 20px !important;
+    height: 50px;
+    border-radius: 20px;
+}
+.hire-me {
+    margin-left: 120px;
+    border: none;
+    color: rgb(248, 176, 42);
+    background-color: none;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 800px) {
+    .Info-details img {
+        width: 200px;
+    }
+    .background-img {
+        height: 400px;
+        width: 100%;
+    }
+    .social-icons {
+        top: 300px;
+    }
+    .social-icons ul li {
+        text-decoration: none;
+        list-style: none;
+        padding: 5px;
+    }
+    .social-icons ul li img {
+        width: 20px;
+    }
+    .last-container {
+        margin-top: 80px;
+    }
+    .Web-developement button {
+        border-radius: 20px;
+        padding: 5px 30px 0px;
+        font-size: 15px;
+        width: 400px;
+        height: 50px;
+        font-weight: bold;
+        color: rgb(248, 176, 42);
+        background-color: rgb(251, 237, 215);
+        letter-spacing: none;
+    }
+    .Web-developement p {
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .social-icons ul li {
+        text-decoration: none;
+        list-style: none;
+        padding: 10px 8px 0px;
+    }
+    .social-icons {
+        border-radius: 30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 300px;
+
+        margin-top: 140px;
+
+        margin-left: 20%;
+    }
+}
